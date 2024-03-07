@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<!--Primeiro Site-->
+	<head>
+		<title>Front End Web 23-1T</title>
+		<meta charset="utf-8">
+		<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+		<style>
+		* {color: white; font-family: sans-serif;}
+		body {background-color: black;}
+		</style>
+		
+
+	</head>
+	<body>
+		<h1><span id="title"></span></h1>
+		<div>
+		<p>Tags do<strong> HTML</strong></p>
+		<ul>
+			<li>DOCTYPE</li>
+			<li>HTML</li>
+			<li>HEAD</li>
+			<li>BODY</li>
+		</ul>
+		<a href="atv1.html">Exercicio 1</a>
+	</body>
+	<script>
+	document.addEventListener("DOMContentLoaded", () => {
+     	new window.TypeIt("#title", {
+       	lifeLike: false,
+       	speed: 100,
+       	loop: true,
+     	})
+       	.type("Bem vindo à Aula1 de Front End Web turma 23-1T!", { delay: 2000 })
+       	.delete()
+       	.go();
+ });
+	</script>
+</html>

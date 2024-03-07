@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carrinho {
+  background: url(./assets/59e5531ab44ffbedbc0f40ecf97d5385.png) no-repeat top right;
+  background-size: contain;
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+  margin-top: 0px;
+  height: 30px;
+}
+
+.logo {
+  margin: 10px;
+  height: 80px;
+  width: 170px;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+.menu-opcoes ul {
+  font-size: 15px;
+}
+
+.menu-opcoes a {
+  color: #000000;
+}
+
+body {
+  color: #333333;
+  background-color: #333;
+}
+
+.menu-opcoes ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.carrinho {
+  padding-top: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  background-color: rgb(20, 20, 20);
+  position: relative;
+}
+
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.busca,
+.menu-conteudo {
+  background-color: #6d6d6d;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10%;
+  width: 15%;
+  float: left;
+}
+
+.busca h2,
+.busca form,
+.menu-conteudo h2 {
+  margin: 10px;
+}
+
+.menu-conteudo li {
+  background-color: rgb(173, 173, 173);
+  margin-bottom: 1px;
+  padding: 5px 10px;
+  list-style: none;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.menu-conteudo {
+  clear: left;
+}
+
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type=search] {
+  width: 170px;
+}
+#destaques {
+  height: 81vh;
+}
+
+.destaque {
+  margin-top: 10px;
+}
+
+.menu-conteudo {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.painel {
+  padding: 10px;
+  width: 445px;
+}
+
+.aula1 {
+  margin-left: 80px ;
+  float: left;
+  background-color: #272727;
+}
+
+.aula2 {
+  float: right;
+  background-color: #272727;
+}
+
+.aula3 {
+  margin-top: 10px;
+  float: right;
+  background-color: #272727;
+}
+
+.aula4 {
+  margin-left: 80px;
+  margin-top: 10px;
+  float: left;
+  background-color: #272727;
+}
+
+.painel li {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  margin: 2px;
+  padding-bottom: 10px;
+}
+
+.painel h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom:
+    10px;
+}
+
+.painel a {
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+
+  clear: both;
+}
+
+footer .container {
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer-logo {
+  margin: 20px;
+}
+
+.social a {
+  color: transparent;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.social li {
+  float: left;
+  margin-top: 8%;
+  list-style: none;
+  height: 100px;
+}
+
+.social a[href*="facebook.com"] {
+  background: url(../style/assets/fb_icon_325x325.png) no-repeat;
+  background-size: contain;
+}
+
+.social a[href="instagram.com"] {
+  background: url(../style/assets/1384063.png) no-repeat;
+  background-size: contain;
+}
+
+.social a[href*="github.com"] {
+  background: url(../style/assets/GitHub_Invertocat_Logo.svg.png) no-repeat;
+  background-size: contain;
+}
+
+p {
+  font-weight: 100;
+  background-color: rgb(20, 20, 20);
+text-align: center;
+}
