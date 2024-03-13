@@ -195,6 +195,10 @@ footer .container {
   text-decoration: none;
 }
 
+input{
+  color: black
+}
+
 .social li {
   float: left;
   margin-top: 8%;
