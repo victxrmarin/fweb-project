@@ -140,6 +140,8 @@ a {
 .painel {
   padding: 10px;
   width: 445px;
+  background: linear-gradient(to top, rgb(36, 36, 36) ,black);
+  border-radius: 7px;
 }
 
 .aula1 {
@@ -172,25 +174,34 @@ a {
   width: 140px;
   margin: 2px;
   padding-bottom: 10px;
+  transition: ease 0.2s ;
+}
+
+.painel li:hover {
+  color: black;
+  box-shadow: 0 0 5px #333;
+  transition: ease-in-out 0.5s;
+  background-color: rgba(255, 255, 255, 0.205);
+  transform: scale(1.2) rotate(-5deg);
+  
 }
 
 .painel h2 {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom:
-    10px;
+  margin-bottom: 10px;
+  
 }
 
 .painel a {
-  color: #333;
+  color: #ffffff;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
 }
 
 footer {
-
   clear: both;
 }
 
