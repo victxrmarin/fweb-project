@@ -62,6 +62,10 @@ body {
   margin-left: 20px;
 }
 
+.menu-opcoes ul li a {
+  color: white
+}
+
 .carrinho {
   padding-top: 8px;
   position: absolute;
