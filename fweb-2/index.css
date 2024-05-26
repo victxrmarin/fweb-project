@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.textarea, .infoarea {
+    margin: 0.5%;
+    width: 50%;
+}
+
+.textarea {
+    background: orangered;
+}
+
+.textarea h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: yellow
+}
+
+.textarea p  {
+    margin: 2%;
+    font-size: 20px;
+}
+
+/* Info area */
+.infoarea img {
+    height: auto;
+    width: 50%;
+}
+
+.infoarea th, .infoarea td{
+    border-bottom: 1px solid black;
+}
+
+.enjambre {
+    visibility: hidden;
+}
+
+.infoarea th {
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+table {
+    width: 70%;
+}
+
+/* Footer */
+
+footer {
+    text-align: center
+}
